@@ -2,9 +2,6 @@ const container = document.getElementById("container");
 const gridItem = document.getElementsByClassName("grid-item")
 const newGrid = document.getElementById("newgrid")
 
-function random(number) {
-  return Math.floor(Math.random() * number + 1);
-}
 
 
 const pSBC=(p,c0,c1,l)=>{
